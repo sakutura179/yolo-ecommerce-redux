@@ -26,10 +26,10 @@ const ProductCard = props => {
             <div className='product-card__btn'>
                 <Button
                     size='sm'
-                    icon='bx bx-cart'
-                    animate={true}
                 >
-                    chọn mua
+                    <Link to={`/catalog/${props.slug}`}>
+                        chọn mua
+                    </Link>
                 </Button>
             </div>
         </div>

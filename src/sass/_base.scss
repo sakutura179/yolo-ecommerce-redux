@@ -40,6 +40,10 @@ a:hover {
     color: $main-color;
 }
 
+button a:hover {
+    color: unset;
+}
+
 @each $color,
 $val in $colors {
     .color-#{$color} {
