@@ -1,0 +1,16 @@
+// Chua cac file scss khac, do do cac file khac co the su dung bien tu file variables.scss
+
+@import './variable';
+@import './mixins';
+@import './base';
+
+@import './components/header';
+@import './components/footer';
+@import './components/slider';
+@import './components/button';
+@import './components/section';
+@import './components/policy-card';
+@import './components/product-card';
+@import './components/catalog';
+@import './components/custom-checkbox';
+@import './components/product';
